@@ -43,7 +43,8 @@ header nav a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-size: cover;
+  background-size:1290px 380px;
+  background-repeat: no-repeat;
 }
 .film-principal .description{
   margin-top: 10px;
@@ -71,4 +72,10 @@ header nav a:hover{
 }
 .film-principal .container{
   width: 70%;
+}
+
+.box-film{
+  height: 40vh;
+  width: 100%;
+  display: inline;
 }
